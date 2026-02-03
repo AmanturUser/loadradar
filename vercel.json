@@ -5,6 +5,8 @@
     { "src": "/send-otp", "dest": "index.js" },
     { "src": "/verify-otp", "dest": "index.js" },
     { "src": "/health", "dest": "index.js" },
+    { "src": "/gmail/(.*)", "dest": "index.js" },
+    { "src": "/templates/(.*)", "dest": "index.js" },
     { "src": "/", "dest": "index.js" }
   ]
 }
